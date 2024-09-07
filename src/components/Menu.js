@@ -7,31 +7,32 @@ const menuItems = [
     name: '台式椒鹽豬豬排',
     description: '香脆的椒鹽豬排，台灣風味濃厚。',
     price: 'NT$70',
-    image: '/images/image.png',
+    image: `${process.env.PUBLIC_URL}/images/image.png`,
   },
   {
     name: '日式照燒豬豬排',
     description: '帶有甘甜照燒醬的豬排，日式風格。',
     price: 'NT$80',
-    image: '/images/image2.png',
+    image: `${process.env.PUBLIC_URL}/images/image2.png`,
   },
   {
     name: '越式椒麻豬豬排',
     description: '香辣的椒麻風味，越南風格豬排。',
     price: 'NT$80',
-    image: '/images/image3.png',
+    image: `${process.env.PUBLIC_URL}/images/image3.png`,
   },
   {
     name: '古早味紅茶',
     description: '傳統古早味紅茶，濃郁香醇。',
     price: 'NT$40',
     image: '/images/image01.png',
+    image: `${process.env.PUBLIC_URL}/images/image2.png`,
   },
   {
     name: '古早味紅茶牛奶',
     description: '經典的紅茶與牛奶的完美搭配。',
     price: 'NT$60',
-    image: '/images/image01.png',
+    image: `${process.env.PUBLIC_URL}/images/image01.png`,
   }
 ];
 

@@ -1,2 +1,3 @@
 # nambpig
-ナンビとんかつの公式サイト
+ナンビとんかつ
+https://twsho.github.io/nambpig/
