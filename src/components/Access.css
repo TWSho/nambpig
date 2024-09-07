@@ -1,0 +1,43 @@
+/* src/components/Contact.css */
+.access-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.access-container h2 {
+  margin-bottom: 20px;
+}
+
+.access-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.access-container label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.access-container input,
+.access-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.access-container button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.access-container button:hover {
+  background-color: #555;
+}

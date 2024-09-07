@@ -1,13 +1,144 @@
-body {
+/* index.css */
+html{
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{
+  background-color: #f0ac2e;
+  color: #000000;
+  padding: 1em;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  height: 60px; /* ヘッダーの高さを設定 */
+  box-sizing: border-box; /* パディングを含めて幅を計算 */
+}
+
+.header-icon {
+  height: 50px; /* アイコンの高さを設定 */
+}
+.instagram-link {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-icon {
+  width: 30px;
+  height: 30px;
+}
+.home-link{
+  color: #000000;
+  text-decoration: none; /* 下線を消す */
+  font-size: 2em; /* リンクのテキストサイズを変更 */
+  padding-left: 1em;
+}
+.instagram-link:hover .instagram-name {
+  text-decoration: underline;
+}
+
+.instagram-icon {
+  margin-right: 8px; /* アイコンと名前の間にスペース */
+}
+
+.instagram-name {
+  /* font-size: 18px; */
+  margin-left: 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #f0ac2e;
+  color: #000000;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box; /* パディングを含めて幅を計算 */
+  display: flex;
+  flex-direction: row;
+  justify-content : center;
+  gap: 1.5em;
+  padding: 1em;
+  font-size: 0.8em; /* リンクのテキストサイズを変更 */
+  height: 40px; /* フッターの高さを設定 */
+  overflow: hidden;
+}
+
+footer p {
+  margin: 0; /* 各p要素のマージンをリセット */
+}
+
+.link{
+  color: #000000;
+}
+
+.routes-container {
+  height: calc(100vh - 100px); /* 必要に応じて調整 */
+  overflow-y: auto; /* 縦方向にスクロール可能にする */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  text-align: center;
+  line-height: 15px;
+}
+.main-content h1 {
+  text-align: center; /* 見出しだけ中央寄せ */
+}
+
+.main-body {
+  padding-top: 1em;
+}
+
+.main-body h3{
+  text-align: left;
+  font-size: medium;
+}
+
+.main-body p,
+.main-body ul,
+.main-body li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  text-align: left;
+  font-size: small;
+}
+
+
+
+.app-store-badge {
+  width: 150px; /* 画像の幅を調整 */
+  cursor: pointer;
+  padding: 3em;
+  padding-bottom: 5em;
+}
+
+.app-store-badge:hover {
+  opacity: 0.8; /* ホバー時のエフェクト */
+}
+
+@media (min-width: 600px) {
+  main {
+    padding: 2em;
+  }
 }
