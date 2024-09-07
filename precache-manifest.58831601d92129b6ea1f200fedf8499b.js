@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92664d5db9b3c84481fb8eabc685447a",
+    "revision": "57cbf61f2ba6fabbba80b41a2b83eaa6",
     "url": "/nambpig/index.html"
   },
   {
