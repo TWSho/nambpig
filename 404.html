@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; URL='/nambpig'" />
+    <script type="text/javascript">
+      // JavaScriptでリダイレクト
+      setTimeout(function () {
+        // 現在のパスをクエリパラメータとして保存
+        const redirectPath = window.location.pathname.replace('/nambpig', '') + window.location.search;
+        window.location.href = '/nambpig?redirect=' + encodeURIComponent(redirectPath);
+      }, 0);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
